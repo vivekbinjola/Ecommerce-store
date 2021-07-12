@@ -15,7 +15,7 @@ useEffect(()=>{
        setProduct(data)
     }
     fetchProduct()
-})
+},[match])
 
 
   
